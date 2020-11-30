@@ -1,0 +1,15 @@
+<div ng-hide="igc.error">
+	<div ng-repeat="image in igc.images">
+		<div class="imageBlock">
+			
+			<img src={{image.link}} height="200" width="200">
+			<footer ng-bind=image.title></footer>
+		</div>
+	</div>
+</div>
+<button ng-show="igc.albumIds.length > 0" class="btn" ng-click="igc.getNextAlbum(igc.albumIds[0])">load more</button>
+
+<div ng-show="igc.error">
+	<p>Something bad must have happened to imgur.</p>
+
+</div>

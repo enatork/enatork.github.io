@@ -1,0 +1,37 @@
+{
+  "name": "d3-transform",
+  "homepage": "https://github.com/trinary/d3-transform",
+  "authors": [
+    "Erik Cunningham <djtrinary@gmail.com>",
+    "Spiros Eliopoulos <seliopou@gmail.com>"
+  ],
+  "description": "add an interface for svg transform attributes in d3.js",
+  "main": [
+    "src/d3-transform.js"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "d3",
+    "svg",
+    "transform"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "d451409109",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d451409109c21999450324aa031af006c6437cc9"
+  },
+  "_source": "git://github.com/trinary/d3-transform.git",
+  "_target": "*",
+  "_originalSource": "d3-transform"
+}

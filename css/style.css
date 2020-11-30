@@ -1,0 +1,394 @@
+
+
+.content{
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.homeBackground h1{
+  margin-top: 50px;
+  margin-left: 20px;
+  color: #E6E6E6;
+}
+.projectSquares{
+  background-color:white;
+  width:200px;
+  height:200px;
+  margin-right: 15px;
+  float:left; 
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  border-color: #ddd;
+  border-radius: 2px;
+  background-size:cover;
+  background-position: center;
+}
+.projectBlock{
+  width:47%;
+
+  height: 210px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  float:left;
+
+}
+.projectContainer{
+  margin: 0 auto;
+  margin-top:75px;
+  max-width: 1100px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+}
+
+.blurb{
+  font-size: 1.4em;
+  line-height: 21px;
+  max-width:1000px;
+}
+.projects-blurb{
+  font-size: 1.1em;
+  line-height: 21px;
+}
+.container{
+  margin-top:75px;
+  margin-left:100px;
+  margin-bottom: 25px;
+}
+
+.homeButtonText{
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2em;
+}
+.images{
+  float:left;
+}
+.imageBlock{
+  margin: 10px;
+  margin-bottom: 10px;
+  float:left;
+}
+.imageContainer{
+  width:660px;
+  padding-top: 75px;
+  margin: 0 auto;
+}
+
+.home-container{
+  top: 75px;
+  left: 100px;
+  position: absolute;
+  color: black;
+  margin: 0 auto;
+  border: 10px solid #4b4b4b;
+  text-align: left;
+  width: 200px;
+  color: #4B4B4B;
+}
+.home-description{
+  display: none;
+}
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 4em;
+  letter-spacing: 10px;
+  margin: 0;
+  padding: 10px;
+}
+.resume{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 3em;
+  letter-spacing: 10px;
+  padding-top: 35px;
+  height:165px;
+  text-decoration: none;
+  color: #4B4B4B;
+}
+.home-text {
+  top: 56px;
+  left: 342px;
+  position: absolute;
+  color: #4B4B3B;
+  margin: 0 auto;
+  padding-top: 5px;
+  font-size: 1.1em;
+  line-height: 21px;
+}
+.iama{
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 40px; 
+  margin-top: 10px;
+}
+
+#rotate {
+  font-weight: 800;   
+}
+.hamburger-nav{
+  background-color: #333333;
+  height: 50px;
+  z-index: 9999;
+  display: none;
+  color: #f8f8f8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.full-page-menu{
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  background-color: #333333;
+  font-size: 1.5em;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.full-page-menu ul{
+  padding-left: 0;
+  margin-top: 100px;
+}
+.full-page-menu ul li{
+  list-style: none;
+  padding: 15px 0;
+}
+.fa{
+  float: right;
+  margin-right:10px;
+  margin-top: 10px;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #333333;
+}
+.menu-items{
+  display: inline-block;
+  float: right;
+  margin-top: 0px;
+
+}
+.menu-items li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+  color: #f8f8f8;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 3px;
+  padding-right: 5px;
+  font-weight: 400;
+  cursor: pointer;
+  height: 35px;
+}
+.menu-items li:hover {
+  background-color: grey;
+
+}
+.menu-items li.logo {
+  float: left;
+  position: absolute;
+  left: 40px;
+  border: 3px solid #f8f8f8;
+  padding: 5px;
+  font-weight: 600;
+  top: 5px;
+  height: 20px;
+}
+.footer-bar {
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  width: 100%;
+  height: 25px;
+  font-size: .8em;
+}
+.footer-bar a{
+  color: #333333;
+  text-decoration: none;
+  margin-right: 25px;
+}
+body {
+  background-color: white;
+
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', Helvetica;
+  /* Disables excess horizontal scroll when the menu is open */
+  overflow-x: hidden;
+  /* Disables selection of text */
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
+  /* Default cursor styles */
+  cursor: default; 
+}
+
+canvas{
+  background: white;
+}
+.canvas-container{
+  margin-top: 50px;
+}
+.btn{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 660px;
+}
+.bubbleChart {
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+}
+.bubbleChart svg{
+  background: #fff;
+}
+/* media queries*/
+/*1110 width*/
+@media only screen and (max-width: 880px){
+  .blurb{
+    margin: 0 auto;
+    width: 375px;
+  }
+  .projectSquares{
+    width: 375px;
+    height: 225px;
+    margin: 0 auto;
+    float: none;
+  }
+  .projectBlock{
+
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    padding-bottom: 25px;
+  }
+
+  .projects-blurb{
+    width: 400px;
+    height: 100px;
+    clear: left;
+    margin: 0 auto;
+  }
+  .footer-bar{
+    display: none;
+  }
+}
+
+
+/* 600px width */
+@media only screen and (max-width: 600px){
+  .home-container{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 550px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  .home-text{
+    display: none;
+  }
+  .home-description{
+    top: 375px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: #4B4B3B;
+    display: block;
+    font-size: 1.5em;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  }
+  .top-nav{
+    display:none;
+  }
+  .hamburger-nav{
+    display:block;
+
+  }
+  .bubbleChart{
+    width:300px;
+  }
+  .canvas-container{
+    display:none;
+  }
+  .projectBlock{
+
+  }
+}
+@media only screen and (max-width: 400px){
+  .blurb{
+    margin: 0 auto;
+    width: 275px;
+  }
+  .projectSquares{
+    width: 275px;
+    height: 200px;
+    margin: 0 auto;
+    float: none;
+  }
+  .projectBlock{
+
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    padding-bottom: 25px;
+  }
+
+  .projects-blurb{
+    width: 250px;
+    height: 100px;
+    clear: left;
+    margin: 0 auto;
+  }
+  .footer-bar{
+    display: none;
+  }
+}

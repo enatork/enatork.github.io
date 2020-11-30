@@ -1,0 +1,30 @@
+
+<style>
+.instaBlock{
+	margin: 0 auto;
+	width: 600px;
+	border: solid;
+	border-width: 1px;
+}
+
+</style>
+
+
+<div ng-hide="igc.error">
+	<div ng-repeat="image in igc.images">
+		<div class="instaBlock">
+			<div class="instaContent">			
+				<img  src={{image.link}} height="600" width="600">
+				<footer ng-bind=image.title | 'test title'></footer>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div ng-show="igc.albumIds.length > 0">
+	<button class="btn" ng-click="igc.getNextAlbum(igc.albumIds[0])">load more</button>
+</div>
+<div ng-show="igc.error">
+	<p>Something bad must have happened to imgur.</p>
+
+</div>

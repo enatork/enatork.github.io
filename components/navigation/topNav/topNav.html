@@ -1,0 +1,10 @@
+	<nav class="fixed-nav-bar">
+		<ul class="menu-items">
+           <li class="logo" ui-sref='home'>KVL</li>
+		   <li ng-repeat="link in tnc.Links" ui-sref={{link.state}}>
+				<div>{{link.name}}</div>
+			</li>
+		</ul>
+
+		
+	</nav>

@@ -1,0 +1,15 @@
+<div>
+	<div ng-click="hnc.toggle()">
+		<i class="fa fa-bars fa-2x"></i>
+	</div>
+	<div class="full-page-menu fadein fadeout" ng-show="hnc.isShow">
+		<div ng-click="hnc.toggle()">
+			<i class="fa fa-times fa-2x"></i>
+		</div>
+		<ul>
+			<li ng-repeat="link in hnc.Links" ng-click="hnc.stateChange(link.state)">
+				<div>{{link.name}}</div>
+			</li>
+		</ul>
+	</div>
+</div>
